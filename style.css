@@ -333,7 +333,7 @@ button.white {
     justify-content: center;
     align-items: flex-start;
     background-image: url(./img/banner/b17.jpg);
-    min-width: 640px;
+    min-width: 652px;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -381,7 +381,7 @@ button.white {
     justify-content: center;
     align-items: flex-start;
     background-image: url(./img/banner/b7.jpg);
-    min-width: 30%;
+    min-width: 31%;
     height: 30vh;
     background-size: cover;
     background-position: center;
@@ -409,3 +409,11 @@ button.white {
     font-size: 15px;
 }
 
+#newletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-position: top 20% left 30%;
+    background-image: url("./img/banner/");
+}
