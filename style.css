@@ -529,3 +529,19 @@ footer .copyright{
     text-align: center;
 }
 
+#pageheader {
+    background-image: url(./img/banner/b1.jpg);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#pageheader h2,p{
+    color: white;
+}
+
