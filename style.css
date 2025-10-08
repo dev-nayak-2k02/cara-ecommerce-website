@@ -623,3 +623,15 @@ footer .copyright{
 #prodetails .single-pro-details span {
     line-height: 25px;
 }
+
+#pageheader.blogheader{
+    background-image: url(./img/banner/b19.jpg);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 14px;
+}
