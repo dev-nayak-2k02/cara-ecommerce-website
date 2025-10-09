@@ -635,3 +635,14 @@ footer .copyright{
     flex-direction: column;
     padding: 14px;
 }
+
+#blog {
+    padding: 150px 150px 0 150px;
+
+}
+
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
