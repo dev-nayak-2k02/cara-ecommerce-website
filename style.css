@@ -706,26 +706,27 @@ footer .copyright{
     background-image: url(./img/about/banner.png);
 }
 
-.marquee {
+#about-head .marquee {
     width: 100%;
     height: 25px;
     background-color: #8e8e8e;
     /* display: flex; */
     /* justify-content: center;
     align-items: center; */
-    padding: 0;
-    padding-left: 0;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: 0;
 }
 
-.marquee .marquee-box{
+#about-head .marquee .marquee-box{
     height: 100%;
     padding: 0;
     text-align: center;
     padding-left: 0;
 }
 
-.marquee .marquee-box p {
+#about-head .marquee .marquee-box p {
     margin: 0;
 }
 
@@ -758,4 +759,10 @@ footer .copyright{
     width: 100%;
     height: 100%;
     border-radius: 20px;
+}
+
+@keyframes marqueeAnimation{
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
 }
