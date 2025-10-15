@@ -764,6 +764,13 @@ footer .copyright{
     border-radius: 20px;
 }
 
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 @keyframes marqueeAnimation{
     to {
         transform: translateX(calc(-100% - 20px));
